@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <title>NannyExpress</title>
+</head>
+<!--    
+    1. Landing page (+ desktop mode layout)
+    2. Log in page
+    3. Forgot password 
+    4. Create account
+    5. Create your profile
+    6. Profile Created 
+    7. Account Verification
+    8. Check the neighborhood (location permission)
+    9. nannyexpress.com/username
+    10. Inbox
+    11. Messaging App
+    12. Navbar
+
+-->
+
+<body>
+    <nav class=" nav-bar fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="#" class="navbar-brand"><img src="images/Capture.PNG" alt="logo" class="img-fluid" height="50" width="50"> </a>
+                </div>
+                <div class="col-4 align-item-end">
+                    <a href="" class="btn btn-login justify-content-end" role="button"> log in</a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="container full-height">
+        <div class="row row-content justify-content-center ">
+
+            <div class="logo-header col-9 col-sm-6">
+                <img class="img-fluid" src="images/Logo.PNG" alt="NannyExpress Logo">
+            </div>
+
+
+        </div>
+
+        <div class="row row-content parent-nanny-btn">
+            <div class="text-center ">
+                <a role="button" class="btn btn-parent" href="#create-account"> I am a parent</a>
+            </div>
+
+            <div class="text-center">
+                <a role="button" class="btn btn-nanny" href="#create-account"> I am a nanny</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container full-height" id="create-account">
+        <div class="row text-center">
+            <h2>Create New Account</h2>
+        </div>
+
+        <div class="row text-center">
+            <h4>Already registered? <a href="log-in">Log in here</a></h4>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="fullname" class="col-md-2 col-form-label">Full Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="dob" class="col-md-2 col-form-label">Date of Birth</label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" id="dob" name="dob">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="mobile" class="col-12 col-md-2 col-form-label">Mobile Number</label>
+                        <div class="col-md-10">
+                            <input type="mobile" class="form-control" id="areacode" name="mobile" placeholder="Mobile Number">
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-parent">Submit</button>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

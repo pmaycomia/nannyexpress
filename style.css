@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.full-height {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-bar {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: dashed violet;
+}
+
+.logo-header {
+    padding-top: 150px;
+}
+
+.btn-parent {
+    width: 20rem;
+    height: 3rem;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 80px;
+    background-color: rgb(141, 201, 219);
+}
+
+.btn-nanny {
+    width: 20rem;
+    height: 3rem;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: pink;
+}
+
+.btn-login {
+    background-color: rgb(252, 156, 172);
+    color: white;
+    font-weight: 600;
+}
