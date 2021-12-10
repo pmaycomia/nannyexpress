@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row my-auto">
                 <div class="col-2">
-                    <a href="#" class="navbar-brand"><img src="images/Capture.PNG" alt="logo" class="img-fluid" height="50" width="50"> </a>
+                    <a href="/index.html" class="navbar-brand"><img src="images/Capture.PNG" alt="logo" class="img-fluid" height="50" width="50"> </a>
                 </div>
                 <div class="col"></div>
 
@@ -46,7 +46,7 @@
 
 
 
-    <div class="container full-height " id="create-account">
+    <div class="container" id="create-account">
         <div class="row col spacer"></div>
         <div class="row text-center">
             <h2>Create Your Profile</h2>
@@ -61,39 +61,72 @@
                 <form>
 
                     <div class="form-group row">
-                        <label for="fullname" class="col-md-2 col-form-label">Full Name</label>
+                        <label for="User Name" class="col-md-2 col-form-label">User Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="User Name">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="dob" class="col-md-2 col-form-label">Date of Birth</label>
-                        <div class="col-md-10">
-                            <input type="date" class="form-control" id="dob" name="dob">
-                        </div>
-                    </div>
+
                     <div class="form-group row">
                         <label for="mobile" class="col-12 col-md-2 col-form-label">Mobile Number</label>
                         <div class="col-md-10">
                             <input type="mobile" class="form-control" id="areacode" name="mobile" placeholder="Mobile Number">
                         </div>
-
                     </div>
                     <div class="form-group row">
-                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <label for="Address" class="col-md-2 col-form-label">Address</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                            <input type="address" class="form-control" id="address" name="address" placeholder="Address">
                         </div>
                     </div>
 
+
+                    <div class="form-group row">
+                        <label for="experience" class="col-md-2 col-form-label">Experience</label>
+                        <input type="range" class="experience" id="experience">
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="rate" class="col-md-2 col-form-label">Hourly Rate</label>
+                        <div class="col-md-10">
+                            <input type="number" min="1" step="any" class="form-control" id="rate" name="rate" placeholder="$">
+                        </div>
+                    </div>
+
+                    <div class="weekDays-selector row">
+                        <p>Availability</p>
+                        <div class="col-12 text-center">
+                            <input type="checkbox" id="weekday-mon" class="weekday" />
+                            <label for="weekday-mon">M</label>
+                            <input type="checkbox" id="weekday-tue" class="weekday" />
+                            <label for="weekday-tue">T</label>
+                            <input type="checkbox" id="weekday-wed" class="weekday" />
+                            <label for="weekday-wed">W</label>
+                            <input type="checkbox" id="weekday-thu" class="weekday" />
+                            <label for="weekday-thu">T</label>
+                            <input type="checkbox" id="weekday-fri" class="weekday" />
+                            <label for="weekday-fri">F</label>
+                            <input type="checkbox" id="weekday-sat" class="weekday" />
+                            <label for="weekday-sat">S</label>
+                            <input type="checkbox" id="weekday-sun" class="weekday" />
+                            <label for="weekday-sun">S</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mt-4">
+                        <label for="avatar">Choose a profile picture:</label>
+                        <div class="col-md-10 mt-2">
+                            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                        </div>
+                    </div>
             </div>
             <div class="col-0 col-md-3"></div>
         </div>
 
 
         <div class="form-group row text-center">
-            <div class="col mt-5">
-                <a type="submit" href="/account-creation.html" class="btn btn-parent">Submit</a>
+            <div class="col mt-5 mb-3">
+                <a type="submit" href="/myaccount.html" class="btn btn-parent">Submit</a>
             </div>
         </div>
         </form>
